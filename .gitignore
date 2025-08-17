@@ -1,0 +1,122 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+*.vs/
+
+# Rider files
+.idea/
+*.sln.iml
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Directories
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*[Rr]e[Ss]harper.*
+
+# DotCover
+*.dotCover
+
+# TeamCity
+_TeamCity*
+
+# DotTrace
+*.dtp
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Microsoft Azure Caching
+__SITECORE_ANALYTICS_COOKIE
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Microsoft Azure ApplicationInsights config file
+ApplicationInsights.config
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# Visual Studio cache files
+*.cache
+*.vspscc
+*.vssscc
+
+# Visual Studio 2017 auto generated files
+*.vsidx
+*.sln.docstates
+
+# Visual Studio 2019 auto generated files
+*.suo.sha1
+
+# Mono auto generated files
+*.pidb
+*.userprefs
+
+# Mac auto generated files
+*.DS_Store
+
+# ReSharper auto generated files
+*.[Rr]e[Ss]harper.proj
+
+# DotCover auto generated files
+*.dcproj
+
+# NCover auto generated files
+*.ncover
+*.ncoverproj
+*.coverage
+*.coveragexml
+
+# DocFX auto generated files
+*.manifest
+*.cache
+
+# Azure Functions auto generated files
+local.settings.json
+
+# Progress tracker data
+progress_tracker.txt

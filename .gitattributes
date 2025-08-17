@@ -1,0 +1,75 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Custom for Visual Studio
+*.cs diff=csharp
+*.sln crlf
+*.csproj crlf
+*.vbproj crlf
+*.vcxproj crlf
+*.vcproj crlf
+*.dbproj crlf
+*.fsproj crlf
+*.sqlproj crlf
+
+# Standard to natively support mixed line endings in RTF
+*.rtf binary
+
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tiff binary
+*.ico binary
+
+# Compressed files
+*.zip binary
+*.tar binary
+*.gz binary
+*.tgz binary
+*.rar binary
+*.7z binary
+
+# Executable files
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Certificate files
+*.pfx binary
+*.p12 binary
+*.cer binary
+*.crt binary
+*.der binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+
+# Video files
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.mkv binary
+*.wmv binary
+
+# Document files
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Markdown and text files should use LF
+*.md eol=lf
+*.txt eol=lf
+*.cs eol=lf
+*.sh eol=lf
+*.bat eol=lf
